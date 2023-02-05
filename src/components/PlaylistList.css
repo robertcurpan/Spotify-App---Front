@@ -1,0 +1,5 @@
+.PlaylistList {
+    display: flex;
+    flex-wrap: wrap;
+    orientation: left;
+}

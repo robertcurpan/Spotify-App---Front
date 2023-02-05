@@ -1,0 +1,13 @@
+.Home {
+    position: absolute;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.homeIntroMessage {
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 20px;
+    font-style: italic;
+}

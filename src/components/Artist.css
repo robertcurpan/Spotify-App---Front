@@ -1,0 +1,22 @@
+.Artist {
+    width: 180px;
+    border-radius: 4px;
+    border: 2px black solid;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-right: 30px;
+    padding: 10px;
+    background-color: rgb(244, 211, 113);
+    color: rgb(0, 0, 0);
+}
+
+.Artist button {
+    border-radius: 6px;
+    background-color: rgb(228, 228, 228);
+}
+
+.error-msg {
+    font-size: 18px;
+    color: red;
+    margin-left: 50px;
+}

@@ -1,0 +1,5 @@
+.ArtistList {
+    display: flex;
+    flex-wrap: wrap;
+    orientation: left;
+}

@@ -1,0 +1,41 @@
+.CreatePlaylists {
+    
+}
+
+.CreatePlaylists label {
+    font-size: 16px;
+}
+
+.createPlaylistDiv {
+    padding: 60px;
+}
+
+.title {
+    font-size: 18px;
+    color: cornflowerblue;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.submitPlaylist {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.playlistInput {
+    width: 200px;
+    height: 25px;
+}
+
+.success {
+    margin-left: 20px;
+    font-size: 18px;
+    color: green;
+}
+
+.error {
+    margin-left: 20px;
+    font-size: 18px;
+    color: red;
+}

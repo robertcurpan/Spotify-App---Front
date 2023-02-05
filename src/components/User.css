@@ -1,0 +1,79 @@
+.User {
+    display: flex;
+    margin: 30px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: rgb(244, 211, 113);
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.User label {
+    font-size: 18px;
+    width: 80px;
+    margin: 5px;
+}
+
+.User span {
+    font-size: 16px;
+}
+
+.userInfo {
+    margin: 0px;
+    padding: 0px;
+}
+
+.userFunctionalities {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.userButton {
+    padding: 5px;
+    margin: 5px;
+    font-size: 14px;
+    width: 100px;
+    height: 30px;
+}
+
+.assignRolesPopup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.assignRolesPopup-content {
+    position: relative;
+    padding: 16px;
+    width: 40%;
+    height: 150px;
+    background-color: white;
+}
+
+.assignRolesPopup-content .popupButton {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+
+.assignRoleButton {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.errorMsg {
+    font-size: 12px;
+    color: red;
+}

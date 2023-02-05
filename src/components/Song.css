@@ -1,0 +1,71 @@
+.Song {
+    width: 180px;
+    border-radius: 4px;
+    border: 2px black solid;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-right: 30px;
+    padding: 10px;
+    background-color: rgb(244, 211, 113);
+    color: rgb(0, 0, 0);
+}
+
+.Song button {
+    border-radius: 6px;
+    background-color: rgb(228, 228, 228);
+}
+
+.Song span {
+    color: rgb(214, 83, 12);
+    font-size: 14px;
+}
+
+.Song .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Song .popup-content {
+    position: relative;
+    padding: 16px;
+    width: 40%;
+    height: 150px;
+    background-color: white;
+}
+
+.popup-content .popupButton {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+
+.popup-content .finishButton {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.errorMsg {
+    font-size: 12px;
+    color: red;
+}
+
+.successMsg {
+    font-size: 12px;
+    color: green;
+}
+
+.album {
+    font-size: 14px;
+    color: grey;
+}

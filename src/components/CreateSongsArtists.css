@@ -1,0 +1,52 @@
+.CreateSongsArtists {
+    
+}
+
+.formsContainer {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+}
+
+.formsContainer label {
+    display: inline-block;
+    font-size: 16px;
+    width: 150px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.songInput, .artistInput {
+    width: 200px;
+    height: 25px;
+}
+
+.combobox {
+    width: 210px;
+    height: 20px;
+}
+
+.submitSong, .submitArtist {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.title {
+    font-size: 18px;
+    color: cornflowerblue;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.success {
+    margin-left: 20px;
+    font-size: 18px;
+    color: green;
+}
+
+.error {
+    margin-left: 20px;
+    font-size: 18px;
+    color: red;
+}

@@ -1,0 +1,33 @@
+.Navbar {
+    background-color: cornflowerblue;
+}
+
+.Navbar button {
+    width: 200px;
+    height: 46px;
+    padding: 5px;
+    font-size: 18px;
+    background-color: cornflowerblue;
+    color: whitesmoke;
+    font-weight: bold;
+    border: 0px;
+}
+
+.Navbar button:hover {
+    background-color: rgb(81, 133, 230);
+}
+
+.loggedInMessage {
+    float: right;
+    font-size: 18px;
+    padding: 10px;
+    margin-right: 20px;
+    color: whitesmoke;
+    font-weight: bold;
+    margin-top: 3px;
+}
+
+.navbarUsername {
+    color: rgb(247, 203, 27);
+    font-weight: bold;
+}

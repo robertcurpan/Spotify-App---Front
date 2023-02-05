@@ -1,0 +1,78 @@
+.SongsPage {
+
+}
+
+.pageButton {
+    width: 90px;
+    height: 40px;
+    margin: 5px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.pageButtonsContainer {
+    margin: auto;
+    width: 200px;
+    height: 50px;
+}
+
+.searchButton {
+    width: 100px;
+    height: 50px;
+    margin: 5px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.searchContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.searchInput {
+    height: 40px;
+    width: 200px;
+    margin: 5px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.SongsPage hr {
+    border-top: 2px solid black;
+    width: 93%;
+}
+
+.SongsPage .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SongsPage .popup-content {
+    position: relative;
+    padding: 16px;
+    width: 40%;
+    height: 150px;
+    background-color: white;
+}
+
+.SongsPage .popupButton {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}

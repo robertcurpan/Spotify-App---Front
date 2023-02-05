@@ -1,0 +1,5 @@
+.SongList {
+    display: flex;
+    flex-wrap: wrap;
+    orientation: left;
+}

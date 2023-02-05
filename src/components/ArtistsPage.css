@@ -1,0 +1,12 @@
+.ArtistsPage {
+    margin-bottom: 100px;
+}
+
+.getArtistsButton {
+    width: 100px;
+    height: 50px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 14px;
+}

@@ -1,0 +1,28 @@
+.Register {
+    padding: 30px;
+}
+
+.registerForm {
+    width: 300px;
+    height: 200px;
+    padding: 30px;
+}
+
+.registerInput {
+    margin: 10px;
+    width: 250px;
+    height: 40px;
+}
+
+.registerButton {
+    width: 80px;
+    height: 40px;
+    padding: 10px;
+    font-size: 14px;
+    margin: 10px;
+}
+
+.successRegistration {
+    font-size:14px;
+    color: green;
+}
